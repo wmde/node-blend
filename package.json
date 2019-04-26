@@ -1,5 +1,5 @@
 {
-  "name": "@mapbox/blend",
+  "name": "@kartotherian/blend",
   "description": "High speed image blending and quantization",
   "version": "2.0.1",
   "homepage": "http://github.com/mapbox/node-blend",
@@ -7,6 +7,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/mapbox/node-blend.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "contributors": [
     "Dane Springmeyer <dane@mapbox.com>",
@@ -25,7 +28,7 @@
     "eslint-config-unstyled": "^1.1.0"
   },
   "dependencies": {
-    "mapnik": "3.x || 4.x"
+    "@kartotherian/mapnik": "~3.7.3"
   },
   "main": "index.js",
   "scripts": {

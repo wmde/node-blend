@@ -57,7 +57,7 @@ properties:
 
 # Installation
 
-    npm install @mapbox/blend@latest
+    npm install @kartotherian/blend@latest
 
 # Development
 
