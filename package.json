@@ -6,7 +6,7 @@
   "author": "Konstantin Käfer <kkaefer@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mapbox/node-blend.git"
+    "url": "https://github.com/kartotherian/node-blend.git"
   },
   "publishConfig": {
     "access": "public"
@@ -28,7 +28,7 @@
     "eslint-config-unstyled": "^1.1.0"
   },
   "dependencies": {
-    "@kartotherian/mapnik": "~3.7.3"
+    "@kartotherian/mapnik": "~3.7.3-wikimedia.0"
   },
   "main": "index.js",
   "scripts": {
